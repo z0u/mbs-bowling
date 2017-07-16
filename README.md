@@ -13,8 +13,9 @@ Tips:
  - Don't apply subsurf modifiers.
  - Clear physics caches before saving.
  - Check file size before committing.
- - _Don't_ compress your `.blend` files - there's a lot of information that can be shared between them, and Git will take care of it.
+ - _Don't_ compress your `.blend` files - there's a lot of information that can be shared between them, and git will take care of it.
  - Don't commit reference material; instead, link to it from a [Markdown] file like this one. For example, the image above is on wikimedia.org.
+ - Store local copies of reference material in the [`references`](references) directory: all files in that directory will be ignored by git.
 
 
 ## 3rd-party Material
